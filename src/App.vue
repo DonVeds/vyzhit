@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SearchBlock/>
+    <CalcButton/>
   </div>
 </template>
 
 <script>
+import SearchBlock from './components/SearchBlock.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import CalcButton from './components/CalcButton.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    SearchBlock,
+    CalcButton
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang='sass'>
+@import '../node_modules/bulma/bulma.sass'
+
+#app
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
 </style>
