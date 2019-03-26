@@ -2,6 +2,7 @@
   <div id="app">
     <SearchBlock/>
     <CalcButton/>
+    <MainList/>
   </div>
 </template>
 
@@ -9,13 +10,15 @@
 import SearchBlock from './components/SearchBlock.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import CalcButton from './components/CalcButton.vue'
+import MainList from './components/MainList.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
     SearchBlock,
-    CalcButton
+    CalcButton,
+    MainList
   }
 }
 </script>

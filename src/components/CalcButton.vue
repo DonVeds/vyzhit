@@ -46,5 +46,3 @@ export default {
   right: 25px
 </style>
 
-
-
