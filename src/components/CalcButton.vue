@@ -15,7 +15,7 @@
         </header>
         <section class="modal-card-body">
           <!-- Content ... -->
-          <p>ты пидор</p>
+          <p>Calculator</p>
         </section>
         <footer class="modal-card-foot">
           <button class="button is-danger">Копировать</button>

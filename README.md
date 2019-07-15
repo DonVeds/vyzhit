@@ -1,4 +1,7 @@
 # vizhit
+![Simple mainpage screenshot](https://github.com/DonVeds/vyzhit/blob/master/Screenshot.png "Simple mainpage screenshot")
+
+Don't remember why
 
 ## Project setup
 ```
